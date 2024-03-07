@@ -1,0 +1,25 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/kms": "^4.1.0",
+    "@koa/router": "^12.0.1",
+    "crypto": "^1.0.1",
+    "fast-crc32c": "^2.0.0",
+    "google-auth-library": "^9.6.3",
+    "js-guid": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "mongoose": "^8.0.4",
+    "redis": "^4.6.12"
+  }
+}
